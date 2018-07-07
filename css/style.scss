@@ -1,5 +1,12 @@
-body {
-	background:green;
+@import './Components/index.scss';
 
+
+body {
+	background: gray;
 	font-size: 40px;
-}
+
+  @media (min-width: 990px) {
+    height: 100vh;
+  }
+
+} 

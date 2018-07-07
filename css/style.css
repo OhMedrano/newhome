@@ -1,3 +1,15 @@
+.bodyContainer {
+  height: 100%;
+  padding: 0 !important; }
+
+.bodyContainer .imgContain {
+  border: 5px solid black;
+  height: 100%; }
+
 body {
-  background: green;
+  background: gray;
   font-size: 40px; }
+
+@media (min-width: 990px) {
+  body {
+    height: 100vh; } }
