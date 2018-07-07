@@ -23,7 +23,9 @@ function HomeScreen(){
   var imageContainer = makeElem.createEle('div','imgContainer',[12,12,6,6],'imgContain');
   var contentContainer = makeElem.createEle('div','contContainer',[12,12,6,6],'contContain');
 
-  contentContainer.append(HomePage());
+  var navigationContainer = makeElem.createEle('div','naviContainer',[12,12,12,12],'naviContain');
+
+  contentContainer.append(HomePage(),navigationContainer);
 
 
   bodyContainer.append(imageContainer,contentContainer);

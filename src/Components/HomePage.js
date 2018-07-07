@@ -11,7 +11,7 @@ function HomePage() {
                                         'linkedIn':'tba',
                                         'github':['OhMedrano','http://github.com/ohmedrano'],
                                       ],
-
+                        "bio":[`What's up, my name is Oscar. I am a web developer, living in New York City `]
                       }
 
 
@@ -27,6 +27,12 @@ function HomePage() {
 
   titleDiv.innerHTML = `<div class='titlename'>${personalInfo.name}</div>
                         <div class='titleposition'>${personalInfo.position[0]}</div>
+                        <div class='titlelocation'>${personalInfo.location}</div>
+                        <div class='titleBio'> ${personalInfo.bio}</div>
+
+
+
+
                         `;
   homeContainer.append(titleDiv);
 
