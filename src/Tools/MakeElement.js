@@ -18,7 +18,7 @@ function MakeElement(){
     let newElement = document.createElement(type);
         newElement.id = name;
     
-    let classStuff = [custom]; 
+    let classStuff = [custom,'noPadding']; 
     
     gridsize.forEach(function(siz,i){
       let multiSize = ['xs','sm','md','lg'];
@@ -32,8 +32,6 @@ function MakeElement(){
     classStuff.forEach(function(clas){
       newElement.classList.add(clas);
     }); 
-
-    console.log(newElement);
     return newElement;
   }
 }
