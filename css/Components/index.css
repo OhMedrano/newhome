@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+/* $header-font: 'Bungee'; */
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+.bodyContainer {
+  height: 100%;
+  padding: 0 !important; }
+  .bodyContainer .imgContain {
+    height: 100%; }
+  .bodyContainer .contContain {
+    border-left: 0px solid black;
+    height: 100%;
+    -webkit-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column; }
+    .bodyContainer .contContain .contInnerContain {
+      border: 0px solid black;
+      height: 80%;
+      padding-top: 10%; }
+
+/* $header-font: 'Bungee'; */
+#homeContainer {
+  border: 1px none;
+  height: 100%; }
+  #homeContainer .titleHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #homeContainer .titleHead > div {
+      width: 100%; }
+    #homeContainer .titleHead .titlename {
+      font-size: 20px;
+      border-bottom: 5px solid black; }
+
+/* $header-font: 'Bungee'; */
+#titleHeaderContain {
+  padding: 0; }
+  #titleHeaderContain .titleName {
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-family: "Baloo Tamma"; }
+  #titleHeaderContain .titleNameContainer {
+    width: 40%;
+    padding: 0 0 0 10%; }
+    #titleHeaderContain .titleNameContainer .titleLastName {
+      position: relative;
+      left: 25%; }
+  #titleHeaderContain #titleHeaderPosition {
+    margin-top: 2%;
+    display: flex;
+    /*  #titleposition1 {
+    
+    font-family: $position-font;
+  } */
+    /*   #titleposition2 {
+
+    font-size: 16px;
+  } */ }
+    #titleHeaderContain #titleHeaderPosition > div {
+      width: 33%;
+      text-align: right;
+      font-size: 16px;
+      height: 4vh;
+      font-family: "Oswald"; }

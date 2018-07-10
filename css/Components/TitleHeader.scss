@@ -1,0 +1,41 @@
+@import '../settings.scss';
+
+#titleHeaderContain {
+  padding: 0;
+  .titleName {
+    border-bottom: 1px solid black; 
+    font-size: 30px;
+    font-family: $header-font;
+  }
+  .titleNameContainer {
+    width: 40%;
+    padding: 0 0 0 10%;
+
+    .titleLastName {
+      position: relative;
+      left: 25%;
+    }
+  }
+
+ #titleHeaderPosition {
+  margin-top: 2%;
+  display: flex;
+  > div {
+    width: 33%;
+    text-align: right;
+    font-size: 16px;
+    height: 4vh;
+    font-family: $position-font-two;
+  }
+
+ /*  #titleposition1 {
+    
+    font-family: $position-font;
+  } */
+/*   #titleposition2 {
+
+    font-size: 16px;
+  } */
+ }
+
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+/* $header-font: 'Bungee'; */
+.bodyContainer {
+  height: 100%;
+  padding: 0 !important; }
+  .bodyContainer .imgContain {
+    height: 100%; }
+  .bodyContainer .contContain {
+    border-left: 0px solid black;
+    height: 100%;
+    -webkit-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column; }
+    .bodyContainer .contContain .contInnerContain {
+      border: 0px solid black;
+      height: 80%;
+      padding-top: 10%; }

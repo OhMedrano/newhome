@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+/* $header-font: 'Bungee'; */
+#homeContainer {
+  border: 1px none;
+  height: 100%; }
+  #homeContainer .titleHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #homeContainer .titleHead > div {
+      width: 100%; }
+    #homeContainer .titleHead .titlename {
+      font-size: 20px;
+      border-bottom: 5px solid black; }

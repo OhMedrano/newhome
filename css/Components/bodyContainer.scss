@@ -1,8 +1,24 @@
+@import '../settings.scss';
+
 .bodyContainer {
   height: 100%;
-  padding: 0 !important;
+  padding: 0 !important; 
   .imgContain {
-    border-right: 5px solid black;
     height: 100%;
+  }
+  .contContain {
+    border-left: 0px solid black;
+    height:100%;
+    -webkit-box-shadow: -29px 0px 126px 36px rgba(0,0,0,0.3);
+    -moz-box-shadow: -29px 0px 126px 36px rgba(0,0,0,0.3);
+    box-shadow: -29px 0px 126px 36px rgba(0,0,0,0.3); 
+    display: flex;
+    flex-direction: column;
+    .contInnerContain {
+      border: 0px solid black;
+      height: 80%;
+      padding-top: 10%;
+      
+    }
   }
 }
