@@ -19,26 +19,32 @@ var data = {
                 "linkedin":["Oscar Medrano","linkedinUrl","linkedinimg"],
                 "github":["Ohmedrano","http://github.com/ohmedrano","imglink"]
                },
-              'skillSet': {
-                'Javascript': {
-                  'level': 7
+              'skillSet': [
+                { 
+                  'name' : 'JS/ES6',
+                  'level': 10
                 },
-                'HTML5': {
-                  'level': 8
+                {
+                  'name':'HTML5',
+                  'level': 10
                 },
-                'CSS': {
-                  "level": 9,
+                {
+                  'name':'CSS',
+                  "level": 12,
                 },
-                "Adobe Illustrator CS6": {
+                {
+                  'name':"Adobe Illustrator CS6",
+                  "level": 11
+                },
+                {
+                  'name':"Adobe Photoshop CS6",
+                  "level": 9 
+                },
+                {
+                  'name':"Hardware repair",
                   "level": 9
-                },
-                "Adobe Photoshop CS6": {
-                  "level": 8 
-                },
-                "Hardware repair": {
-                  "level": 10
                 }
-              },
+              ],
             },
             /* Work Exp */
             "work": [
