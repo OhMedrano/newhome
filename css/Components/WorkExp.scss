@@ -1,0 +1,41 @@
+@import '../settings.scss';
+
+#experience {
+  display: none;
+  .workExpContInner {
+    margin-bottom:2%;
+    padding-left: 4% !important ;
+    .workContainTopHalf {
+      font-family: $position-font-two;
+
+      .workName {
+        font-size: 25px;
+      }
+      .workDate {
+        font-size: 16px;
+      }
+      .workPosition {
+        font-size: 20px;
+      }
+    }
+    .workContainBottomHalf {
+      font-family: $primary-text-font;
+      
+      .duty {
+        border-bottom:0.5px solid $dirty-grey;
+        display: flex;
+        background: $dirty-grey;
+        color: $dark-blue;
+        font-weight: 600;
+        font-size: 14.5px;
+        width: auto;
+        padding-right:5px;
+        margin-bottom: -1px;
+        -webkit-box-shadow: 28px 33px 37px 5px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 28px 33px 37px 5px rgba(0, 0, 0, 0.35);
+        box-shadow: 28px 33px 37px 5px rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+
+}

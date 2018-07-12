@@ -1,19 +1,62 @@
-@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Montserrat|Oswald|Poppins|Press+Start+2P");
 /* $header-font: 'Bungee'; */
 .bodyContainer {
   height: 100%;
-  padding: 0 !important; }
-  .bodyContainer .imgContain {
-    height: 100%; }
-  .bodyContainer .contContain {
-    border-left: 0px solid black;
-    height: 100%;
-    -webkit-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
-    box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column; }
-    .bodyContainer .contContain .contInnerContain {
-      border: 0px solid black;
-      height: 80%;
-      padding-top: 10%; }
+  padding: 0 !important;
+  color: #f0dde0; }
+
+.bodyContainer .imgContain {
+  height: 100%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAANElEQVQoU2Pkk1D4z4AEvnIrMXB/vYcsBGYz0l4hhp1QAQyr6aiQWdkJJXiwBQ3W4KHYjQAgUBe9a2xpGgAAAABJRU5ErkJggg==); }
+
+.bodyContainer .contContain {
+  border-left: 0px solid black;
+  height: 100%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQoU2PkN/b9z0AEYCReoYoxqon8UljNJ8FE6ruRYhM/PkPxFPU9AwA2nhFukSpK3gAAAABJRU5ErkJggg==);
+  -webkit-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+  box-shadow: -29px 0px 126px 36px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column; }
+
+.bodyContainer .contContain .contInnerContain {
+  border: 0px solid black;
+  height: 94%;
+  padding-top: 5%; }
+
+.bodyContainer .contContain .naviContain {
+  height: 6%;
+  background: #f0dde0;
+  color: #0f334d;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "Oswald"; }
+
+.bodyContainer .contContain .naviContain .navMenuItem {
+  border: 1px none;
+  height: 100%;
+  padding-left: 10px; }
+
+.bodyContainer .contContain .naviContain .navMenuItem:hover {
+  cursor: pointer;
+  background: #b8b7c5;
+  -webkit-box-shadow: inset 0px 0px 30px 6px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: inset 0px 0px 30px 6px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0px 0px 30px 6px rgba(0, 0, 0, 0.55); }
+
+.notActive {
+  display: none !important; }
+
+.isActive {
+  display: block !important; }
+
+.navActive {
+  -webkit-box-shadow: 0px 9px 11px 13px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 9px 11px 13px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 9px 11px 13px rgba(0, 0, 0, 0.55);
+  background: #f0dde0; }
+
+.navMenuItem:first-of-type.navActive {
+  -webkit-box-shadow: 10px 1px 12px 6px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 10px 1px 12px 6px rgba(0, 0, 0, 0.55);
+  box-shadow: 10px 1px 12px 6px rgba(0, 0, 0, 0.55); }

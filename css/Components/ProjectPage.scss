@@ -1,0 +1,72 @@
+@import '../settings.scss';
+
+#projects {
+  display: none;
+  
+  .projectContainer {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQoU2PkN/b9z0AEYCReoYoxqon8UljNJ8FE6ruRYhM/PkPxFPU9AwA2nhFukSpK3gAAAABJRU5ErkJggg==);
+    position: relative;
+    z-index: 2;
+    padding: 16% 0 0 0;
+    .project {
+      
+      margin-bottom: 10%;
+      color: $dark-blue;
+      font-size: 16px;
+      padding: 0;
+      .projectTop {
+        width: auto;
+        padding:0;
+      }
+      .projectCon {
+        background: $dirty-white;
+        width: 200%;
+        padding-left: 3%;
+
+      -webkit-box-shadow: 18px 26px 50px 8px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 18px 26px 50px 8px rgba(0, 0, 0, 0.55);
+      box-shadow: 18px 26px 50px 8px rgba(0, 0, 0, 0.55);
+      
+        .projectName {
+          font-family: $position-font-two;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .projectImageView {
+    border: 1px none;
+    width: 98%;
+    margin-right: 5px;
+    position: absolute;
+    z-index: 1;
+    height: 73vh;
+    right: 0;
+    opacity: 1;
+    transition: all 0.7s ease-out; 
+  
+  }
+
+}
+
+.activeProject {
+  .projectCon {
+    background: $dirty-gray !important;
+    cursor: pointer;
+  }
+}
+
+
+/* I need to fix this bug... Media queries aren't being read inside scss blocks */
+@media (min-width: 990px) {
+  #projects {
+
+    .projectContainer {
+      height: 73vh;
+    }
+    .projectImageView {
+      height: 73vh;
+  
+    }
+  }
+}

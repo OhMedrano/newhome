@@ -1,31 +1,36 @@
-@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Oswald|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Montserrat|Oswald|Poppins|Press+Start+2P");
 /* $header-font: 'Bungee'; */
 #titleHeaderContain {
-  padding: 0; }
+  padding: 0;
+  color: #b8b7c5; }
   #titleHeaderContain .titleName {
-    border-bottom: 1px solid black;
-    font-size: 30px;
-    font-family: "Baloo Tamma"; }
+    font-size: 40px;
+    font-family: "Oswald"; }
   #titleHeaderContain .titleNameContainer {
-    width: 40%;
-    padding: 0 0 0 10%; }
+    width: 75%;
+    padding: 0 0 0 5%;
+    margin-bottom: 5%; }
     #titleHeaderContain .titleNameContainer .titleLastName {
-      position: relative;
+      position: absolute;
       left: 25%; }
   #titleHeaderContain #titleHeaderPosition {
     margin-top: 2%;
-    display: flex;
-    /*  #titleposition1 {
-    
-    font-family: $position-font;
-  } */
-    /*   #titleposition2 {
-
-    font-size: 16px;
-  } */ }
+    display: flex; }
     #titleHeaderContain #titleHeaderPosition > div {
-      width: 33%;
+      width: 33.35%;
       text-align: right;
-      font-size: 16px;
+      font-size: 20px;
       height: 4vh;
-      font-family: "Oswald"; }
+      padding-right: 14px;
+      font-family: "Oswald";
+      text-transform: capitalize;
+      background: #0f334d;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #0f334d 1%, #0b5d85 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #0f334d 1%, #0b5d85 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #0f334d 1%, #0b5d85 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f334d', endColorstr='#0b5d85',GradientType=1 );
+      /* IE6-9 */ }
