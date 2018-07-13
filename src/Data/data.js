@@ -17,7 +17,7 @@ var data = {
               'contact': [
                 {
                   "name":"Email",
-                  "link":"Oscar@TheBigOh.net",
+                  "link":"mailTo:Oscar@TheBigOh.net",
                   "handle":"Oscar@TheBigOh.net",
                   "icon":"../images/icons/email.png"
                 },

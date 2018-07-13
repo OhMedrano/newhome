@@ -9,11 +9,22 @@
   .contactText {
     background: $dirty-white;
     color: $dark-blue;
-    font-style: $primary-text-font;
-    font-size: 20px;
+    font-family: $position-font-two;
+    font-size: 25px;
     width: auto;
+    padding: 0 5% 0 2%;
+
+
 
   }
+  .contactText,
+  .contactHandle, 
+  .contactIcon {
+    -webkit-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49);
+    box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49);
+  }
+
 
   .contactLinkCont {
     display: flex;
@@ -21,17 +32,45 @@
 
     .contactCon {
       display: flex;
+      text-decoration: none;
+
+      
+
 
       .contactHandle {
         width: auto;
         background: $dirty-white;
+        padding: 0 5%;
+        display: flex;
+        align-items:  center;
+        color: $dark-blue;
+        font-family: $position-font-two;
+        
       }
       .contactIcon {
         background: $dirty-white;
+
+
+        .contactIconInner {
+           background-position: center !important;
+        }
+      }
+
+      &:hover {
+
+        .contactHandle, .contactIcon {
+          background: $dirty-grey-bg;
+          position: relative;
+          top: 5px;
+             -webkit-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69);
+    box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69);
+
+ 
+        }
       }
     }
   }
-
 }
 
 
@@ -46,19 +85,23 @@
 
 
     .contactLinkCont {
-      padding-top: 5%;
+      padding-top: 10%;
       .contactCon {
         width: 60%;
-        height: 7vh;
-        margin-bottom: 5%;
+        height: 6vh;
+        margin-bottom: 10%;
         .contactIcon {
           height: 100%;
 
           .contactIconInner {
             background-size: 60% !important;
             height: 100%;
-            background-position: center !important;
+           
           }
+
+        }
+        .contactHandle {
+          font-size: 26px; 
 
         }
       }

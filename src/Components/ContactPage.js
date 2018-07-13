@@ -21,13 +21,15 @@ function ContactPage(data) {
     let contactIcon = makeElem.createEle('div','contactIcon',[12,12,3,3],'contactIcon');
     let contactHandle = makeElem.createEle('div','contactHandle',[12,12,9,9],'contactHandle');
     
+
+
     contactIcon.innerHTML = `<div class='contactIconInner'style='background:url(${contact.icon}) no-repeat;'></div>`;
     
     contactHandle.innerHTML = contact.handle;
 
 
-      contactCon.append(contactIcon,contactHandle);
-    
+    contactCon.append(contactIcon,contactHandle);
+    contactCon.href = contact.link;
     
     
 
