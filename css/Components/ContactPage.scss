@@ -1,0 +1,69 @@
+@import '../settings.scss';
+
+
+#contact {
+  display: none; 
+  border: 1px solid black;
+  padding-left: 4%;
+
+  .contactText {
+    background: $dirty-white;
+    color: $dark-blue;
+    font-style: $primary-text-font;
+    font-size: 20px;
+    width: auto;
+
+  }
+
+  .contactLinkCont {
+    display: flex;
+    flex-direction: column;
+
+    .contactCon {
+      display: flex;
+
+      .contactHandle {
+        width: auto;
+        background: $dirty-white;
+      }
+      .contactIcon {
+        background: $dirty-white;
+      }
+    }
+  }
+
+}
+
+
+@media (min-width: 990px) {
+  #contact {
+    height: 73vh;
+    padding-top: 10%;
+
+    .contextText {
+      margin-bottom: 10%;
+    }
+
+
+    .contactLinkCont {
+      padding-top: 5%;
+      .contactCon {
+        width: 60%;
+        height: 7vh;
+        margin-bottom: 5%;
+        .contactIcon {
+          height: 100%;
+
+          .contactIconInner {
+            background-size: 60% !important;
+            height: 100%;
+            background-position: center !important;
+          }
+
+        }
+      }
+    }
+
+
+  }
+}
