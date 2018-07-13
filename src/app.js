@@ -3,6 +3,7 @@ import HomePage from './Components/HomePage.js';
 import WorkExp from './Components/WorkExp.js';
 import ProjectPage from './Components/ProjectPage.js';
 import TitleHeader from './Components/TitleHeader.js';
+import ContactPage from './Components/ContactPage.js';
 import MakeElement from './Tools/MakeElement.js';
 
 var Data = require('./Data/data.js');
@@ -53,7 +54,7 @@ function HomeScreen(){
   })
   
 
-  contentInnerContainer.append(TitleHeader(data),HomePage(data),WorkExp(data),ProjectPage(data));
+  contentInnerContainer.append(TitleHeader(data),HomePage(data),WorkExp(data),ProjectPage(data),ContactPage(data));
   contentContainer.append(contentInnerContainer,navigationContainer);
 
 

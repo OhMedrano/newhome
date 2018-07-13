@@ -14,11 +14,33 @@ var data = {
                   'bronx',
                   "queens"
                ],                       
-              'contact': {
-                "email":["Oscar","Oscar@TheBigOh.net","emailImg"],
-                "linkedin":["Oscar Medrano","linkedinUrl","linkedinimg"],
-                "github":["Ohmedrano","http://github.com/ohmedrano","imglink"]
-               },
+              'contact': [
+                {
+                  "name":"Email",
+                  "link":"Oscar@TheBigOh.net",
+                  "handle":"Oscar@TheBigOh.net",
+                  "icon":"../images/icons/email.png"
+                },
+                {
+                  "name":"linkedIn",
+                  "link":"https://www.linkedin.com/in/oscarmedrano/",
+                  "handle":"Oscar Medrano",
+                  "icon":"../images/icons/linkedIn.png"
+                },
+                {
+                  "name":"Github",
+                  "link":"http://github.com/ohMedrano",
+                  "handle":"OhMedrano",
+                  "icon":"../images/icons/gitBlack.png"
+                },
+                {
+                  "name":"Instagram",
+                  "link":"http://instagram.com/the_big_oh",
+                  "handle":"@the_big_oh",
+                  "icon":"../images/icons/insta.svg"
+                },
+
+               ],
               'skillSet': [
                 { 
                   'name' : 'JS/ES6',
@@ -95,7 +117,7 @@ var data = {
             /* Projects */
             "projects": [
               {
-                "name": "Guitar Scales",
+                "name": "Guitar Tools",
                 "url":"http://guitar.thebigoh.net",
                 "framework":"AngularJS (1.x)",
                 "purpose": [
@@ -103,7 +125,7 @@ var data = {
                   "Added a \"Lefty\" mode for lefty guitarist after popular demand",
                   "Made with \"Responsive Design\" in mind, so you can use it on any device."
                 ],
-                "projectImage": "urlLink",
+                "projectImage": "https://i.imgur.com/b4bmsg2.png?1",
               },
               {
                 "name": "React PokeDex",
@@ -114,7 +136,7 @@ var data = {
                   "Wanted to create one that looks like it came from one of the games",
                   "Designed all graphic assets in Adobe Illustrator",
                 ],
-                "projectImage": "urlLink",
+                "projectImage": "https://i.imgur.com/7UGoStl.png?1",
               },
               {
                 "name": "AtaByte Hosting",
@@ -125,7 +147,7 @@ var data = {
                   "Responsive design makes it ready to be viewed on any device",
                   "Parallax effect"
                 ],
-                "projectImage": "urlLink",
+                "projectImage": "https://i.imgur.com/jkVu7mh.jpg?1",
               },
               {
                 "name": "Vega Built Gaming",
@@ -135,7 +157,7 @@ var data = {
                   "Re-design of Vega Built Gaming",
                   "Logo custom created in Adobe illustrator"
                 ],
-                "projectImage":"urlLink",
+                "projectImage":"https://i.imgur.com/QE8pSFd.png?1",
               },               
                            
 
