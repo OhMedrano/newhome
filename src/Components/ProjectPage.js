@@ -6,7 +6,7 @@ function ProjectPage(data,imgGal) {
   let makeElem = new MakeElement;
   let projectData = data.projects;
 
-  let projectParentContainer = makeElem.createEle('div','projects',[12,12,12,12],'contentContainerItem');
+  let projectParentContainer = makeElem.createEle('div','projects',[12,12,12,12],['contentContainerItem']);
   let projectChildContainer = makeElem.createEle('div','projectContainer',[12,12,12,12],'projectContainer');
   let projectImageViewer = makeElem.createEle('div','projectImageViewer',[12,12,12,12],'projectImageView');
 

@@ -78,7 +78,8 @@ var data = {
                 "endDate": "July 2018",
                 "isPresent": false,
                 "duties": [
-                  "Working with big name fashion clients such as Chanel, Saks, and Kate Spade",
+                  "Working with clients for online to in-store conversions",
+                  "Clients include Chanel, Saks, and David Yurman",
                   "Implementing client designs into final product",
                   "Developing new ideas to streamline implementation of projects",
                   "Writing up new components to meet client demands"
@@ -162,6 +163,12 @@ var data = {
                            
 
             ],
+            "displayImages": [
+                              "../images/backgrounds/fasilPic.png",
+                              "../images/backgrounds/place.jpg",
+                              "../images/backgrounds/tech1.jpg",
+                              "../images/backgrounds/tech2.jpg",
+                            ],
           }
 
 export default data;

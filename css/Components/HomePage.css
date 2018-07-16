@@ -63,3 +63,7 @@
 
 #home .homeContCon #homeSkill .homeSkillOutCont .skillContain .skillLvlCont .skillFill:last-of-type {
   border-right: 3px solid #b8b7c5; }
+
+@media (min-width: 1200px) {
+  .homeSkillsTitle {
+    margin-bottom: 2% !important; } }

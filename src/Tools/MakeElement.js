@@ -15,10 +15,18 @@
 
 function MakeElement(){     
   this.createEle = function(type,name,gridsize,custom) {
-    let newElement = document.createElement(type);
+    let newElement = document.createElement(type); 
         newElement.id = name;
     
-    let classStuff = [custom,'noPadding']; 
+    let classStuff = ['noPadding']; 
+
+    if(Array.isArray(custom)) {
+      custom.forEach(function(clas){
+        classStuff.push(clas);
+      })
+    } else {
+      classStuff.push(custom);
+    }
     
     gridsize.forEach(function(siz,i){
       let multiSize = ['xs','sm','md','lg'];

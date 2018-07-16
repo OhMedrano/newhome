@@ -99,10 +99,13 @@
       .projectBottom {
         margin-top: -1px;
         padding: 0;
+        display: flex;
+        flex-direction: column;
         .purpose {
           background: $dirty-grey-bg;
           font-size: 20px;
           width: auto;
+          max-width: max-content;
           padding: 0 10px 0 5px;
           margin-bottom: -1px;
           -webkit-box-shadow: 18px 26px 50px 8px rgba(0, 0, 0, 0.55);
@@ -130,6 +133,7 @@
       font-size: 25px;
       .projinnerLink {
         padding-top: 10px;
+        text-transform: capitalize;
       }
 
     }
@@ -169,5 +173,21 @@
       }
 
     }
+  }
+}
+
+@media (min-width: 1080px) {
+  #projects {
+    .projectimgcontainer {
+      padding: 2% 4% 4% 2% !important;
+    }
+    .projectContainer {
+      height: 68vh;
+      padding: 13% 0 0 0;
+    }
+    .projectImageView {
+      height: 70vh;
+    }
+
   }
 }

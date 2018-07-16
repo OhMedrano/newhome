@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Montserrat|Oswald|Poppins|Press+Start+2P");
+/* $header-font: 'Bungee'; */
+#ImageContainer {
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; }
+  #ImageContainer .picContain {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s ease-out; }
+    #ImageContainer .picContain .actualPic {
+      height: 100%;
+      width: 100%;
+      background-position: center !important;
+      background-size: 100% !important;
+      position: absolute !important; }
+
+.activePic {
+  display: block !important;
+  opacity: 1 !important;
+  right: 100% !important; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }

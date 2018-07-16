@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee|Montserrat|Oswald|Poppins|Press+Start+2P");
+/* $header-font: 'Bungee'; */
+#contact {
+  display: none;
+  border: 1px solid transparent;
+  padding-left: 4%; }
+  #contact .contactText {
+    background: #f0dde0;
+    color: #0f334d;
+    font-family: "Oswald";
+    font-size: 25px;
+    width: auto;
+    padding: 0 5% 0 2%; }
+  #contact .contactText,
+  #contact .contactHandle,
+  #contact .contactIcon {
+    -webkit-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49);
+    box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.49); }
+  #contact .contactLinkCont {
+    display: flex;
+    flex-direction: column; }
+    #contact .contactLinkCont .contactCon {
+      display: flex;
+      text-decoration: none; }
+      #contact .contactLinkCont .contactCon .contactHandle {
+        width: auto;
+        background: #f0dde0;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        color: #0f334d;
+        font-family: "Oswald"; }
+      #contact .contactLinkCont .contactCon .contactIcon {
+        background: #f0dde0; }
+        #contact .contactLinkCont .contactCon .contactIcon .contactIconInner {
+          background-position: center !important; }
+      #contact .contactLinkCont .contactCon:hover .contactHandle, #contact .contactLinkCont .contactCon:hover .contactIcon {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMklEQVQoU2Ps7e3/r61lxkAIMO7YfvQ/IUUgeTorvHrtFAPM/XitJlohsidp4BliAxwAcmwmCZIBkm8AAAAASUVORK5CYII=);
+        position: relative;
+        top: 5px;
+        -webkit-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69);
+        -moz-box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69);
+        box-shadow: 34px 29px 63px 6px rgba(0, 0, 0, 0.69); }
+
+@media (min-width: 990px) {
+  #contact {
+    height: 73vh;
+    padding-top: 10%; }
+    #contact .contextText {
+      margin-bottom: 10%; }
+    #contact .contactLinkCont {
+      padding-top: 10%; }
+      #contact .contactLinkCont .contactCon {
+        width: 60%;
+        height: 6vh;
+        margin-bottom: 10%; }
+        #contact .contactLinkCont .contactCon .contactIcon {
+          height: 100%; }
+          #contact .contactLinkCont .contactCon .contactIcon .contactIconInner {
+            background-size: 60% !important;
+            height: 100%; }
+        #contact .contactLinkCont .contactCon .contactHandle {
+          font-size: 26px; } }

@@ -27,7 +27,7 @@ function HomePage(data) {
                         </div>
                       `;
 
-  console.log(skills);
+  
   homeSkills.append(homeSkillsTitle, homeSkillsSkillContainer);
 
   skills.forEach(function(skill,i){
@@ -48,7 +48,7 @@ function HomePage(data) {
 
     newSkillContainer.append(skillName,skillLvlContain);
     homeSkillsSkillContainer.append(newSkillContainer);
-    console.log(newSkillContainer, skillName);
+    
   })
 
 

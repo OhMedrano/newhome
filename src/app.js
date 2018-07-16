@@ -5,6 +5,7 @@ import ProjectPage from './Components/ProjectPage.js';
 import TitleHeader from './Components/TitleHeader.js';
 import ContactPage from './Components/ContactPage.js';
 import MakeElement from './Tools/MakeElement.js';
+import ImageCarousel from './Tools/ImageCarousel.js';
 
 var Data = require('./Data/data.js');
 
@@ -53,6 +54,7 @@ function HomeScreen(){
     navigationContainer.append(nav);
   })
   
+  imageContainer.append(ImageCarousel(data));
 
   contentInnerContainer.append(TitleHeader(data),HomePage(data),WorkExp(data),ProjectPage(data),ContactPage(data));
   contentContainer.append(contentInnerContainer,navigationContainer);

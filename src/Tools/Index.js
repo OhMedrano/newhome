@@ -1,4 +1,4 @@
-import * from '../Tools';
+import * from '../MakeElement.js';
 
 
 export default *;

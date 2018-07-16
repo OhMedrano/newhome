@@ -44,7 +44,7 @@ function WorkExp(data) {
     let workExpContainerInner = makeElem.createEle('div','workExpContainerInner',[12,12,12,12],'workExpContInner');
     let workContainTopHalf = makeElem.createEle('div','workContainTopHalf'+i,[12,12,12,12],'workContainTopHalf');
     let workContainBottomHalf = makeElem.createEle('div','workContainBtmHalf'+i,[12,12,12,12],'workContainBottomHalf')
-    console.log(work.isPresent);
+    
 
     if(work.isPresent) {
       console.log('is Present');
@@ -69,7 +69,7 @@ function WorkExp(data) {
 
     work.duties.forEach(function(duty,i){
       let dut = makeElem.createEle('div','duty'+i,[12,12,12,12],'duty');
-      dut.innerHTML = `${duty}`;
+      dut.innerHTML = `- ${duty}`;
 
       workContainBottomHalf.append(dut);
 

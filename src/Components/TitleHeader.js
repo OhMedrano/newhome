@@ -9,7 +9,7 @@ function TitleHeader(data) {
   let lastName = person.name[1];
   let fullName = firstName + " " + lastName;
   let positions = person.position;
-  console.log(name);
+  
 
   let titleHeaderContain = makeElem.createEle('div','titleHeaderContain',[12,12,12,12],'titleHeaderCont');
   let titlePositionContainer = makeElem.createEle('div','titleHeaderPosition',[12,12,12,12],'titlePositionCon');
