@@ -19,7 +19,9 @@ function ImageCarousel(data) {
 
     actualPic.style.cssText = `background:url(${pic}) no-repeat;`;
 
-
+    if(i == 0 ) {
+      picContain.classList.add('activePic');
+    }
     picContain.append(actualPic);
     imageContainer.append(picContain);
 
@@ -53,20 +55,20 @@ ready();
 
     ready(function(){
       let picIndex = 0;
-      moveCarousel();
-      function moveCarousel() {
-        let getPics = document.querySelectorAll('.picContain');
-        for(var x=0;x < getPics.length;x++){
-          getPics[x].style.display = 'none';
-        }
-        if(picIndex > getPics.length) {
-          picIndex = 0;
-        } 
-        getPics[picIndex - 1].style.display = 'block';
-        setTimeout(moveCarousel(),2000);
+      let getImages = document.querySelectorAll('.picContain');
 
-        console.log(getPics);
-      }
+        setInterval(function(){
+          picIndex = (picIndex + 1)%4;
+          console.log(picIndex);
+          getImages.forEach(function(img){
+            img.classList.remove('activePic');
+          });
+          document.querySelector('#picContain'+picIndex).classList.add('activePic');
+        },3400)
+
+
+
+
   });
 
 

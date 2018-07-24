@@ -9,6 +9,8 @@
                             Name: Takes string value, sets element Id value
                             Gridsize: Takes Array value, [xs,sm,md,lg]. Used for bootstrap's grid system
                             Custom: Takes string value, sets custom classes
+                                    Uses an array if there is more than one custom class being called in.
+                                    
 
 */
 
